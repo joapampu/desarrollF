@@ -125,6 +125,7 @@ img {
     padding: 30px;
     color: #ffffff;
     width: 400px;
+
 }
 
 #subtitulo {
@@ -154,5 +155,9 @@ header a {
     height:10vh;
     
 }
-
+@media (max-width: 720px) {
+    #titulo {
+        margin-left:-1.6em;
+    }
+} 
 
